@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px) {
 .background {
-    background: url(Images/background.jpg) center no-repeat;
+    background: url(Images/background.jpg) 50% 15% no-repeat;
     background-attachment: fixed;
     background-size: 1000px, auto;
 }
@@ -8,23 +8,180 @@
 
 @media screen and (min-width: 1000px) {
 .background {
-    background: url(Images/background.jpg) center no-repeat;
+    background: url(Images/background.jpg) 50% 15% no-repeat;
     background-attachment: fixed;
     background-size: 100%, auto;
 }
 }
 
-.game {
+@media screen and (min-width: 1150px) {
+    .leftcolumn_pc {
+        display: show;
+    }
+    .rightcolumn_pc {
+        display: show;
+    }
+    .centercolumn_pc {
+        display: show;
+    }
+    .headcontainer_pc {
+        display: show;
+    }
+    .resourcescontainer_pc {
+        display: show;
+    }
+    .leftcolumn_mobile {
+        display: none;
+    }
+    .leftcolumn_mobilexs {
+        display: none;
+    }
+    .rightcolumn_mobile {
+        display: none;
+    }
+    .rightcolumn_mobilexs {
+        display: none;
+    }
+    .centercolumn_mobile {
+        display: none;
+    }
+    .headcontainer_mobile {
+        display: none;
+    }
+    .headcontainer_mobilexs {
+        display: none;
+    }
+    .leftcolumn {
+        width: 240px;;
+    }
+    .rightcolumn {
+        width: 240px;;
+    }
+    .centercolumn {
+        width: 600px;;
+    }
+}
+
+/* Currently disabled
+@media screen and (min-width: 910px) and (max-width: 1149px) {
+    .leftcolumn_pc {
+        display: none;
+    }
+    .rightcolumn_pc {
+        display: none;
+    }
+    .centercolumn_pc {
+        display: show;
+    }
+    .headcontainer_pc {
+        display: none;
+    }
+    .leftcolumn_mobile {
+        display: show;
+    }
+    .leftcolumn_mobilexs {
+        display: none;
+    }
+    .rightcolumn_mobile {
+        display: show;
+    }
+    .rightcolumn_mobilexs {
+        display: none;
+    }
+    .centercolumn_mobile {
+        display: none;
+    }
+    .headcontainer_mobile {
+        display: show;
+    }
+    .headcontainer_mobilexs {
+        display: none;
+    }
+    .leftcolumn {
+        width: 120px;;
+    }
+    .rightcolumn {
+        width: 120px;;
+    }
+    .centercolumn {
+        width: 600px;;
+    }
+}
+
+@media screen and (max-width: 909px) {
+    .leftcolumn_pc {
+        display: none;
+    }
+    .rightcolumn_pc {
+        display: none;
+    }
+    .centercolumn_pc {
+        display: none;
+    }
+    .headcontainer_pc {
+        display: none;
+    }
+    .leftcolumn_mobile {
+        display: none;
+    }
+    .leftcolumn_mobilexs {
+        display: show;
+    }
+    .rightcolumn_mobile {
+        display: none;
+    }
+    .rightcolumn_mobilexs {
+        display: show;
+    }
+    .centercolumn_mobile {
+        display: show;
+    }
+    .headcontainer_mobile {
+        display: none;
+    }
+    .headcontainer_mobilexs {
+        display: show;
+    }
+    .leftcolumn {
+        width: 80px;;
+    }
+    .rightcolumn {
+        width: 80px;;
+    }
+    .centercolumn {
+        width: 300px;;
+    }
+}
+*/
+
+.game, .startscreen {
     box-sizing: border-box;
     justify-content: center;
 }
 
-.headcontainer {
+#NewGame, #NewGame2, #LoadGame {
+    box-sizing: border-box;
+	height: 40px;
+    width: 120px;
+	background: #777;
+    border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.headcontainer, .resourcescontainer {
     box-sizing: border-box;
     display: flex; /* using flexbox to align items */
     flex-wrap: nowrap; /* to force items on multiple lines */
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .gametitle {
@@ -39,34 +196,6 @@
     margin: auto 0;
 }
 
-.options {
-    box-sizing: border-box;
-    background: #d8d8d8;
-    height: 40px;
-    border: 2px solid #737373;
-    border-radius: 8px;
-    font-family: Arial;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2px;
-}
-
-.achievements {
-    box-sizing: border-box;
-    background: #d8d8d8;
-    height: 40px;
-    border: 2px solid #737373;
-    border-radius: 8px;
-    font-family: Arial;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2px;
-}
-
 .gamecontainer {
     box-sizing: border-box;
     display: flex; /* using flexbox to align items */
@@ -79,7 +208,6 @@
     display: inline-flex; /* using flexbox to align items */
     flex-direction: column;
     align-items: center;
-    width: 240px;
     margin: 5px;
 }
 
@@ -97,9 +225,51 @@
     font-size: 15px;
 }
 
-.select_shopping {
+.select_alt {
+    box-sizing: border-box;
+    width: 210px;
+	height: 30px;
+	background: #9f9f9f;
+    border: 0px;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.select_change {
+    box-sizing: border-box;
+    width: 225px;
+	height: 30px;
+	background: #9f9f9f;
+    border: 0px;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.select_shopping, .select_style, .select_contests {
     box-sizing: border-box;
     width: 315px;
+	height: 30px;
+	background: #9f9f9f;
+    border: 0px;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.select_style_mobile {
+    box-sizing: border-box;
+    width: 157.5px;
 	height: 30px;
 	background: #9f9f9f;
     border: 0px;
@@ -125,72 +295,38 @@
     font-size: 15px;
 }
 
-#ButtonBonsaiA {
+#ButtonBonsaiA_mobilexs, #ButtonBonsaiB_mobilexs, #ButtonBonsaiC_mobilexs, #ButtonBonsaiD_mobilexs, #ButtonBonsaiE_mobilexs, #ButtonBonsaiF_mobilexs, #ButtonBonsaiG_mobilexs, #ButtonBonsaiH_mobilexs, #ButtonBonsaiI_mobilexs, #ButtonBonsaiJ_mobilexs {
     box-sizing: border-box;
-    width: 120px;
-	height: 120px;
+    width: 40px;
+	height: 40px;
 	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 120px, 120px;
+    background-image: url(Images/treequality/TQ0.svg);
+    background-size: 40px, 40px;
     border: 0px;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 8px;
     cursor: pointer;
 }
-#ButtonBonsaiB {
+
+#ButtonBonsaiA_mobile, #ButtonBonsaiB_mobile, #ButtonBonsaiC_mobile, #ButtonBonsaiD_mobile, #ButtonBonsaiE_mobile, #ButtonBonsaiF_mobile, #ButtonBonsaiG_mobile, #ButtonBonsaiH_mobile, #ButtonBonsaiI_mobile, #ButtonBonsaiJ_mobile {
     box-sizing: border-box;
-    width: 120px;
-	height: 120px;
+    width: 60px;
+	height: 60px;
 	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 120px, 120px;
+    background-image: url(Images/treequality/TQ0.svg);
+    background-size: 60px, 60px;
     border: 0px;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 8px;
     cursor: pointer;
 }
-#ButtonBonsaiC {
+
+#ButtonBonsaiA, #ButtonBonsaiB, #ButtonBonsaiC, #ButtonBonsaiD, #ButtonBonsaiE, #ButtonBonsaiF, #ButtonBonsaiG, #ButtonBonsaiH, #ButtonBonsaiI, #ButtonBonsaiJ{
     box-sizing: border-box;
     width: 120px;
 	height: 120px;
 	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 120px, 120px;
-    border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    cursor: pointer;
-}
-#ButtonBonsaiD {
-    box-sizing: border-box;
-    width: 120px;
-	height: 120px;
-	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 120px, 120px;
-    border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    cursor: pointer;
-}
-#ButtonBonsaiE {
-    box-sizing: border-box;
-    width: 120px;
-	height: 120px;
-	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 120px, 120px;
-    border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    cursor: pointer;
-}
-#ButtonBonsaiF {
-    box-sizing: border-box;
-    width: 120px;
-	height: 120px;
-	background: #f1f1f1;
-    background-image: url(Images/none.svg);
+    background-image: url(Images/treequality/TQ0.svg);
     background-size: 120px, 120px;
     border: 0px;
     font-family: Arial;
@@ -198,18 +334,30 @@
     cursor: pointer;
 }
 
-#ButtonLeft {
+#ChangeABonsaiA, #ChangeABonsaiB, #ChangeABonsaiC, #ChangeABonsaiD, #ChangeABonsaiE, #ChangeABonsaiF, #ChangeABonsaiG, #ChangeABonsaiH, #ChangeABonsaiI, #ChangeABonsaiJ, #ChangeBBonsaiA, #ChangeBBonsaiB, #ChangeBBonsaiC, #ChangeBBonsaiD, #ChangeBBonsaiE, #ChangeBBonsaiF, #ChangeBBonsaiG, #ChangeBBonsaiH, #ChangeBBonsaiI, #ChangeBBonsaiJ {
     box-sizing: border-box;
-    width: 240px;
-	height: 40px;
-	background: #9f9f9f;
+    width: 112.5px;
+	height: 112.5px;
+	background: #f1f1f1;
+    background-image: url(Images/treequality/TQ0.svg);
+    background-size: 112.5px, 112.5px;
     border: 0px;
-    color: white;
-    padding-left: 10px;
-    text-align: left;
-    cursor: pointer;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#Avatar1, #Avatar2, #Avatar3, #Avatar4, #Avatar5, #Avatar6, #Avatar7, #Avatar8, #Avatar9, #Avatar10, #Avatar11, #Avatar12, #Avatar13, #Avatar14, #Avatar15, #Avatar16, #Avatar17, #Avatar18, #Avatar19, #Avatar20, #Avatar21, #Avatar22 {
+    box-sizing: border-box;
+    width: 78px;
+	height: 78px;
+    padding: 5px;
+    margin: 5px;
+	background: #f1f1f1;
+    border: 0px;
+    font-family: Arial;
+    font-size: 13px;
+    cursor: pointer;
 }
 
 .centercolumn {
@@ -219,10 +367,38 @@
     align-items: center;
 }
 
-#ButtonNavigationBonDex, #ButtonNavigationLearn, #ButtonNavigationTasks, #ButtonNavigationExpedition, #ButtonNavigationCraft, #ButtonNavigationShop, #ButtonNavigationOptions, #ButtonNavigationAchievements {
+#ButtonNavigationBonDex, #ButtonNavigationLearn, #ButtonNavigationTasks, #ButtonNavigationExpedition, #ButtonNavigationCraft, #ButtonNavigationShop, #ButtonNavigationOptions, #ButtonNavigationCompetitions {
     box-sizing: border-box;
-    width: 137.5px;
-	height: 40px;
+    width: 136.25px;
+	height: 30px;
+	background: #777;
+    border: 0px;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#ButtonNavigationBonDex_mobile, #ButtonNavigationLearn_mobile, #ButtonNavigationTasks_mobile, #ButtonNavigationExpedition_mobile, #ButtonNavigationCraft_mobile, #ButtonNavigationShop_mobile, #ButtonNavigationOptions_mobile, #ButtonNavigationCompetitions_mobile {
+    box-sizing: border-box;
+    width: 106.25px;
+	height: 30px;
+	background: #777;
+    border: 0px;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#ButtonNavigationBonDex_mobilexs, #ButtonNavigationLearn_mobilexs, #ButtonNavigationTasks_mobilexs, #ButtonNavigationExpedition_mobilexs, #ButtonNavigationCraft_mobilexs, #ButtonNavigationShop_mobilexs, #ButtonNavigationOptions_mobilexs, #ButtonNavigationCompetitions_mobilexs {
+    box-sizing: border-box;
+    width: 58.75px;
+	height: 30px;
 	background: #777;
     border: 0px;
     color: white;
@@ -245,7 +421,39 @@
     font-size: 15px;
 }
 
-#Button {
+.Resource {
+    box-sizing: border-box;
+    border: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    background: #777; 
+    color: white;
+    height: 30px;
+}
+
+.Text {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-content: center; 
+    justify-content: center;
+    width:250px;
+    background: #f1f1f1;
+    line-height: 20px;
+    padding: 5px;
+    color: #555; 
+    border: 0px;
+    text-align: center;
+}
+
+.Centering {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-content: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+#Button, #Button_Storage {
     box-sizing: border-box;
 	height: 40px;
 	background: #777;
@@ -261,7 +469,7 @@
     font-size: 15px;
 }
 
-#ButtonT000, #ButtonT001, #ButtonT002, #ButtonT003, #ButtonT004, #ButtonT005, #ButtonT006, #ButtonT007, #ButtonT008, #ButtonT009, #ButtonT010, #ButtonT011, #ButtonT012, #ButtonT013, #ButtonT014 {
+#ButtonTTG01_R1, #ButtonTTG01_R2, #ButtonTTG01_R3, #ButtonTTG01_C1, #ButtonTTG01_C2, #ButtonTTG01_C3, #ButtonTTG02_R1, #ButtonTTG02_R2, #ButtonTTG02_R3, #ButtonTTG02_C1, #ButtonTTG02_C2, #ButtonTTG02_C3, #ButtonTTG03_R1, #ButtonTTG03_R2, #ButtonTTG03_R3, #ButtonTTG03_C1, #ButtonTTG03_C2, #ButtonTTG03_C3, #ButtonArea01_J1, #ButtonArea01_J2, #ButtonArea01_J3, #ButtonArea01_C1, #ButtonArea01_C2, #ButtonArea01_C3 {
     box-sizing: border-box;
 	height: 40px;
 	background: #777;
@@ -277,7 +485,79 @@
     font-size: 15px;
 }
 
-#T000, #T000C, #T001, #T001C, #T002, #T002C, #T003, #T003C, #T004, #T004C, #T005, #T005C, #T006, #T006C, #T007, #T007C, #T008, #T008C, #T009, #T009C, #T010, #T010C, #T011, #T011C, #T012, #T012C, #T013, #T013C, #T014, #T014C {
+#Button_equip_bookrobot1, #Button_equip_backpack {
+    box-sizing: border-box;
+	height: 30px;
+	background: #777;
+    border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#Button_equip_labkit, #Button_equip_bookofpatience, #Button_equip_memorychips, #Button_equip_bookgrowing1, #Button_equip_bookshaping1, #Button_equip_map_areares02, #Button_equip_bookstorage1, #Button_equip_bookstyles2, #Button_equip_map_area02 {
+    box-sizing: border-box;
+	height: 30px;
+	background: #777;
+    border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: auto;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#shop_chemical_sell_1, #shop_chemical_buy_1, #shop_glass_sell_1, #shop_glass_buy_1, #shop_bolt_sell_1, #shop_bolt_buy_1, #shop_metal_sell_1, #shop_metal_buy_1, #shop_wire_sell_1, #shop_wire_buy_1, #shop_board_sell_1, #shop_board_buy_1, #shop_seedling_sell, #shop_bonsai_sell {
+    box-sizing: border-box;
+	height: 30px;
+	background: #777;
+    border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#cr_compost1_m, #cr_compost1_p, #cr_compost1_min, #cr_compost1_max, #cr_fertilizer1_m, #cr_fertilizer1_p, #cr_fertilizer1_min, #cr_fertilizer1_max {
+	height: 30px;
+	background: #777;
+    border: 0px;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#bonsai_foliage_minus_10, #bonsai_foliage_minus_1, #bonsai_foliage_minus_0, #bonsai_foliage_plus_0, #bonsai_foliage_plus_1, #bonsai_foliage_plus_10, #bonsai_branches_minus_10, #bonsai_branches_minus_1, #bonsai_branches_minus_0, #bonsai_branches_plus_0, #bonsai_branches_plus_1, #bonsai_branches_plus_10, #bonsai_trunk_minus_10, #bonsai_trunk_minus_1, #bonsai_trunk_minus_0, #bonsai_trunk_plus_0, #bonsai_trunk_plus_1, #bonsai_trunk_plus_10, #bonsai_roots_minus_10, #bonsai_roots_minus_1, #bonsai_roots_minus_0, #bonsai_roots_plus_0, #bonsai_roots_plus_1, #bonsai_roots_plus_10, #bonsai_level_minus_1, #bonsai_level_plus_1 {
+	height: 30px;
+	background: #777;
+    border: 0px;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+#ButtonT000, #ButtonT001, #ButtonT002, #ButtonT003, #ButtonT004, #ButtonT004a, #ButtonT005, #ButtonT006, #ButtonT007, #ButtonT008, #ButtonT009, #ButtonT010, #ButtonT011, #ButtonT012, #ButtonT013, #ButtonT014 {
     box-sizing: border-box;
 	height: 40px;
 	background: #777;
@@ -293,7 +573,7 @@
     font-size: 15px;
 }
 
-#Craft_Compost, #Craft_Robot {
+#T000, #T000C, #T001, #T001C, #T002, #T002C, #T003, #T003C, #T004, #T004C, #T004a, #T004aC, #T005, #T005C, #T006, #T006C, #T007, #T007C, #T008, #T008C, #T009, #T009C, #T010, #T010C, #T011, #T011C, #T012, #T012C, #T101, #T101C, #T102, #T102C, #T103, #T103C, #T201, #T201C, #T202, #T202C, #T203, #T203C {
     box-sizing: border-box;
 	height: 40px;
 	background: #777;
@@ -309,7 +589,7 @@
     font-size: 15px;
 }
 
-#Button_Skill_Robot, #Button_Skill_Compost, #Button_Skill_Growing, #Button_Skill_Shaping, #Button_Skill_Patience {
+#Craft_Compost1, #Craft_Fertilizer1, #Craft_Robot1, #Craft_Greenhouse1, #Craft_Storage {
     box-sizing: border-box;
 	height: 40px;
 	background: #777;
@@ -325,7 +605,39 @@
     font-size: 15px;
 }
 
-#Skill_Robot, #Skill_Robot_Learned, #Skill_Compost, #Skill_Compost_Learned, #Skill_Growing, #Skill_Growing_Learned, #Skill_Shaping, #Skill_Shaping_Learned, #Skill_Patience, #Skill_Patience_Learned {
+#Button_Skill_Treestyles1, #Button_Skill_Treestyles2, #Button_Skill_Robot1, #Button_Skill_Compost1, #Button_Skill_Fertilizer1, #Button_Skill_Growing, #Button_Skill_Shaping, #Button_Skill_Patience, #Button_Skill_Greenhouse1, #Button_Skill_Storage1, #Button_Skill_Care1, #Button_Skill_Area1Up1, #Button_Skill_Area2Up1, #Button_Skill_Areares1Up1, #Button_Skill_Areares2Up1 {
+    box-sizing: border-box;
+	height: 40px;
+	background: #777;
+    border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#sortbonsais, #Skill_Treestyles1, #Skill_Treestyles1_Learned, #Skill_Treestyles2, #Skill_Treestyles2_Learned, #Skill_Robot1, #Skill_Robot1_Learned, #Skill_Compost1, #Skill_Compost1_Learned, #Skill_Fertilizer1, #Skill_Fertilizer1_Learned, #Skill_Growing, #Skill_Growing_Learned, #Skill_Shaping, #Skill_Shaping_Learned, #Skill_Patience, #Skill_Patience_Learned, #Skill_Greenhouse1, #Skill_Greenhouse1_Learned, #Skill_Storage1, #Skill_Storage1_Learned, #Skill_Care1, #Skill_Care1_Learned, #Skill_Area1Up1, #Skill_Area1Up1_Learned, #Skill_Area2Up1, #Skill_Area2Up1_Learned, #Skill_Areares1Up1, #Skill_Areares1Up1_Learned, #Skill_Areares2Up1, #Skill_Areares2Up1_Learned {
+    box-sizing: border-box;
+	height: 40px;
+	background: #777;
+    border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#club_ttg01raundo, #club_ttg02erementaru, #club_ttg03roku-men, #club_st01chokan, #club_st02moyogi, #club_st03shakan, #league_area01 {
     box-sizing: border-box;
 	height: 40px;
 	background: #777;
@@ -354,81 +666,112 @@
     font-size: 15px;
 }
 
-.tasks {
-    display:show;
+.bondex {
+    display:none;
     box-sizing: border-box;
-    width: 600px;
+    width: 100%;
     height: auto;
 	border: 0px;
     font-family: Arial;
     font-size: 15px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tasks {
+    display:show;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+	border: 0px;
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .expedition {
     display:none;
     box-sizing: border-box;
-    width: 600px;
+    width: 100%;
     height: auto;
 	border: 0px;
     font-family: Arial;
     font-size: 15px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .crafting {
     display:none;
     box-sizing: border-box;
-    width: 600px;
+    width: 100%;
     height: auto;
 	border: 0px;
     font-family: Arial;
     font-size: 15px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .learning {
     display:none;
     box-sizing: border-box;
-    width: 600px;
+    width: 100%;
     height: auto;
 	border: 0px;
     font-family: Arial;
     font-size: 15px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .shopping {
     display:none;
     box-sizing: border-box;
-    width: 600px;
+    width: 100%;
     height: auto;
 	border: 0px;
     font-family: Arial;
     font-size: 15px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.competitions {
+    display:none;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+	border: 0px;
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .bonsai_details {
     display:none;
     box-sizing: border-box;
-    width: 600px;
+    width: 100%;
     height: auto;
 	border: 0px;
     font-family: Arial;
     font-size: 15px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .bonsai_details_seedling {
     display:none;
     box-sizing: border-box;
-    width: 600px;
+    width: 100%;
     height: auto;
 	border: 0px;
     font-family: Arial;
     font-size: 15px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .center_content {
     box-sizing: border-box;
@@ -442,7 +785,19 @@
     font-size: 15px;
 }
 
-#Button_Grow {
+.center_content_mobile {
+    box-sizing: border-box;
+    display: flex; /* using flexbox to align items */
+    flex-wrap: wrap; /* to force items on multiple lines */
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px; /* Could be more or less, depending on screen size */
+    height: auto;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#Button_Grow, #Button_Compost, #Button_Fertilizer {
     box-sizing: border-box;
 	height: 40px;
 	background: #777;
@@ -450,6 +805,20 @@
     color: white;
     padding-left: 10px;
     text-align: left;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#worker1_task_clicker, #worker2_task_clicker, #worker3_task_clicker {
+    box-sizing: border-box;
+	height: 40px;
+	background: #9f9f9f;
+    border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    color: white;
     cursor: pointer;
     font-family: Arial;
     font-size: 15px;
@@ -466,6 +835,17 @@
     margin-right: 2.5px;
 }
 
+.centercolumn_left_mobile {
+    box-sizing: border-box;
+    width: 140px; /* Could be more or less, depending on screen size */
+    height: auto;
+    justify-content: center;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap; /* to force items on multiple lines */
+    margin-right: 1.25px;
+}
+
 .centercolumn_right {
     box-sizing: border-box;
     width: 315px; /* Could be more or less, depending on screen size */
@@ -477,6 +857,17 @@
     margin-left: 2.5px;
 }
 
+.centercolumn_right_mobile {
+    box-sizing: border-box;
+    width: 157.5px; /* Could be more or less, depending on screen size */
+    height: auto;
+    justify-content: center;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap; /* to force items on multiple lines */
+    margin-left: 1.25px;
+}
+
 .rightcolumn {
     box-sizing: border-box;
     display: inline-flex; /* using flexbox to align items */
@@ -485,12 +876,42 @@
     margin: 5px;
 }
 
-#seedlinga_right {
+#seedlinga_right_mobilexs, #seedlingb_right_mobilexs, #seedlingc_right_mobilexs, #seedlingd_right_mobilexs, #seedlinge_right_mobilexs, #seedlingf_right_mobilexs {
+    box-sizing: border-box;
+    width: 40px;
+	height: 40px;
+	background: #f1f1f1;
+    background-image: url(Images/treequality/TQ0_small.svg);
+    background-size: 40px, 40px;
+    border: 0px;
+    font-family: Arial;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#seedlinga_right_mobile, #seedlingb_right_mobile, #seedlingc_right_mobile, #seedlingd_right_mobile, #seedlinge_right_mobile, #seedlingf_right_mobile {
+    box-sizing: border-box;
+    width: 40px;
+	height: 40px;
+	background: #f1f1f1;
+    background-image: url(Images/treequality/TQ0_small.svg);
+    background-size: 40px, 40px;
+    border: 0px;
+    font-family: Arial;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#seedlinga_right, #seedlingb_right, #seedlingc_right, #seedlingd_right, #seedlinge_right, #seedlingf_right {
     box-sizing: border-box;
     width: 80px;
 	height: 80px;
 	background: #f1f1f1;
-    background-image: url(Images/none_small.svg);
+    background-image: url(Images/treequality/TQ0_small.svg);
     background-size: 80px, 80px;
     border: 0px;
     font-family: Arial;
@@ -500,12 +921,12 @@
     align-items: center;
 }
 
-#seedlinga_center {
+#seedlinga_center, #seedlingb_center, #seedlingc_center, #seedlingd_center, #seedlinge_center, #seedlingf_center {
     box-sizing: border-box;
     width: 105px;
 	height: 105px;
 	background: #f1f1f1;
-    background-image: url(Images/none.svg);
+    background-image: url(Images/treequality/TQ0.svg);
     background-size: 105px, 105px;
     border: 0px;
     font-family: Arial;
@@ -516,28 +937,13 @@
     cursor: auto;
 }
 
-#seedlingb_right {
+#seedlinga_center_mobile, #seedlingb_center_mobile, #seedlingc_center_mobile, #seedlingd_center_mobile, #seedlinge_center_mobile, #seedlingf_center_mobile {
     box-sizing: border-box;
-    width: 80px;
-	height: 80px;
+    width: 78.75px;
+	height: 78.75px;
 	background: #f1f1f1;
-    background-image: url(Images/none_small.svg);
-    background-size: 80px, 80px;
-    border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#seedlingb_center {
-    box-sizing: border-box;
-    width: 105px;
-	height: 105px;
-	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 105px, 105px;
+    background-image: url(Images/treequality/TQ0.svg);
+    background-size: 78.75px, 78.75px;
     border: 0px;
     font-family: Arial;
     font-size: 13px;
@@ -547,134 +953,179 @@
     cursor: auto;
 }
 
-#seedlingc_right {
+.bonsaiimage80 {
     box-sizing: border-box;
-    width: 80px;
-	height: 80px;
-	background: #f1f1f1;
-    background-image: url(Images/none_small.svg);
-    background-size: 80px, 80px;
     border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    width: 80px; 
+    height: 80px; 
+    background: #f1f1f1; 
+    background-image: url(Images/treequality/TQ0_small.svg); 
+    background-size: 80px 80px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items:center; 
+    justify-content: center
 }
 
-#seedlingc_center {
+.bonsaiimage120 {
     box-sizing: border-box;
-    width: 105px;
-	height: 105px;
-	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 105px, 105px;
     border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: auto;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    width: 120px; 
+    height: 120px; 
+    background: #f1f1f1; 
+    background-image: url(Images/treequality/TQ0_small.svg); 
+    background-size: 120px 120px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items:center; 
+    justify-content: center
 }
 
-#seedlingd_right {
+.contests {
     box-sizing: border-box;
-    width: 80px;
-	height: 80px;
-	background: #f1f1f1;
-    background-image: url(Images/none_small.svg);
-    background-size: 80px, 80px;
     border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    display: flex; 
+    flex-wrap: wrap; 
+    align-content: center;
     align-items: center;
+    font-family: Arial;
+    font-size: 15px;
 }
 
-#seedlingd_center {
-    box-sizing: border-box;
-    width: 105px;
-	height: 105px;
-	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 105px, 105px;
-    border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: auto;
+/* Tooltip */
+.tpinfo {
+    height: 30px; 
+    width: 10px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
 }
 
-#seedlinge_right {
-    box-sizing: border-box;
-    width: 80px;
-	height: 80px;
-	background: #f1f1f1;
-    background-image: url(Images/none_small.svg);
-    background-size: 80px, 80px;
-    border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tooltip, .judge1pre, .judge1dis, .judge2pre, .judge2dis, .judge3pre, .judge3dis {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url(Images/information.svg);
+    background-size: 10px;
+    margin-top: 5px;
 }
 
-#seedlinge_center {
-    box-sizing: border-box;
-    width: 105px;
-	height: 105px;
-	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 105px, 105px;
-    border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: auto;
+.ttbondex, .ttmilestone {
+    position: relative;
+    display: inline-block;
 }
 
-#seedlingf_right {
-    box-sizing: border-box;
-    width: 80px;
-	height: 80px;
-	background: #f1f1f1;
-    background-image: url(Images/none_small.svg);
-    background-size: 80px, 80px;
-    border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tooltip .tooltip_text, .judge1pre #judge1pre_text, .judge1dis #judge1dis_text, .judge2pre #judge2pre_text, .judge2dis #judge2dis_text, .judge3pre #judge3pre_text, .judge3dis #judge3dis_text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items:center; 
+  justify-content: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-#seedlingf_center {
-    box-sizing: border-box;
-    width: 105px;
-	height: 105px;
-	background: #f1f1f1;
-    background-image: url(Images/none.svg);
-    background-size: 105px, 105px;
-    border: 0px;
-    font-family: Arial;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: auto;
+.ttbondex .ttbondex_text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items:center; 
+  justify-content: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  margin-left: -20px;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
+
+.ttmilestone .ttmilestone_text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items:center; 
+  justify-content: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  margin-left: -30px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip::after .tooltip_text::after, .ttbondex::after .ttbondex_text::after, .ttmilestone::after .ttmilestone_text::after, .judge1pre #judge1pre_text::after, .judge1dis #judge1dis_text::after, .judge2pre #judge2pre_text::after, .judge2dis #judge2dis_text::after, .judge3pre #judge3pre_text::after, .judge3dis #judge3dis_text::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+
+.tooltip:hover .tooltip_text, .ttbondex:hover .ttbondex_text, .ttmilestone:hover .ttmilestone_text, .judge1pre:hover #judge1pre_text, .judge1dis:hover #judge1dis_text, .judge2pre:hover #judge2pre_text, .judge2dis:hover #judge2dis_text, .judge3pre:hover #judge3pre_text, .judge3dis:hover #judge3dis_text {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 /* Collapsible Menus Container*/
 .rightcolumn_content2 {
     box-sizing: border-box;
     width: 240px;
+    background-color: #f1f1f1;
+	border: 0px;
+    font-family: Arial;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* to force items on multiple lines */
+}
+
+.rightcolumn_content2_mobile {
+    box-sizing: border-box;
+    width: 120px;
+    background-color: #f1f1f1;
+	border: 0px;
+    font-family: Arial;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* to force items on multiple lines */
+}
+
+.rightcolumn_content2_mobilexs {
+    box-sizing: border-box;
+    width: 80px;
     background-color: #f1f1f1;
 	border: 0px;
     font-family: Arial;
@@ -838,7 +1289,7 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-/* Collapsible Sub - Closed by default - END*/
+/* Collapsible - Closed by default - END*/
 
 /* Collapsible Sub - Closed by default - START*/
 /* Style the button that is used to open and close the collapsible content */
@@ -904,14 +1355,6 @@
     background-color: #777  !important;
 }
 
-.select:hover{
-    background-color: #777  !important;
-}
-
-.selectsub:hover{
-    background-color: #bbb  !important;
-}
-
 .edit {
     box-sizing: border-box;
 	height: 40px;
@@ -925,12 +1368,9 @@
     font-size: 15px;
 }
 
-
-
-
 /* Edit Name Modal */
  /* The Modal (background) */
-.modal_name {
+.modal_bonsaisort, .modal_name, .modal_newname, .modal_newname2, .modal_newgame, .modal_skilllevel, .modal_intro0, .modal_intro1, .modal_intro2, .modal_intro3, .modal_intro4, .modal_intro5, .modal_intro6, .modal_intro7, .modal_intro8a, .modal_intro8b, .modal_intro9, .modal_intro10, .modal_intro11, .modal_intro12, .modal_intro13, .modal_intro14, .modal_intro15, .modal_position, .modal_contests, .modal_contests_result{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -944,8 +1384,7 @@
 }
 
 /* Modal Content/Box */
-.modal_name-content {
-    width: 200px;
+.modal_bonsaisort-content, .modal_name-content, .modal_newname-content, .modal_newname2-content, .modal_newgame-content, .modal_skilllevel-content, .modal_intro0-content, .modal_intro1-content, .modal_intro2-content, .modal_intro3-content, .modal_intro4-content, .modal_intro5-content, .modal_intro6-content, .modal_intro7-content, .modal_intro8a-content, .modal_intro8b-content, .modal_intro9-content, .modal_intro10-content, .modal_intro11-content, .modal_intro12-content, .modal_intro13-content, .modal_intro14-content, .modal_intro15-content, .modal_position-content, .modal_contests-content , .modal_contests_result-content {
     background-color: #f1f1f1;
     margin: 5% auto; /* 15% from the top and centered */
     padding: 5px;
@@ -960,86 +1399,48 @@
 }
 
 /* The Close Button */
-.modal_name_close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.modal_name_close:hover,
-.modal_name_close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-} 
-
-#Button_Modal_Name {
+.Button_Modal_Position_Class {
     box-sizing: border-box;
 	height: 40px;
 	background: #777;
     border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
     color: white;
-    padding-left: 10px;
+    padding: 0px;
     text-align: left;
     cursor: pointer;
     font-family: Arial;
     font-size: 15px;
 }
 
-/* Change Position Modal */
- /* The Modal (background) */
-.modal_position {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.modal_position-content {   
-    width: 240px;
-    background-color: #f1f1f1;
-    margin: 5% auto; /* 15% from the top and centered */
-    padding: 5px;
-    border: 1px solid #888;
-    height: auto;
-    font-family: Arial;
-    font-size: 15px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* to force items on multiple lines */
-}
-
-/* The Close Button */
-.modal_position_close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.modal_position_close:hover,
-.modal_position_close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-} 
-
-.Button_Modal_Position_Class {
+.Button_Modal_Contests_Unavailable {
     box-sizing: border-box;
 	height: 40px;
-	background: #777;
+	background: #cc0000;
     border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
     color: white;
-    padding-left: 10px;
+    padding: 0px;
+    text-align: left;
+    cursor: auto;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.Button_Modal_Contests_Choosen {
+    box-sizing: border-box;
+	height: 40px;
+	background: #189e00;
+    border: 0px;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    color: white;
+    padding: 0px;
     text-align: left;
     cursor: pointer;
     font-family: Arial;
@@ -1055,7 +1456,7 @@
     width: 120px;
 	height: 120px;
 	background: #f1f1f1;
-    background-image: url(Images/none.svg);
+    background-image: url(Images/treequality/TQ0.svg);
     background-size: 120px, 120px;
     border: 0px;
     font-family: Arial;
@@ -1067,7 +1468,7 @@
     width: 120px;
 	height: 120px;
 	background: #f1f1f1;
-    background-image: url(Images/none.svg);
+    background-image: url(Images/treequality/TQ0.svg);
     background-size: 120px, 120px;
     border: 0px;
     font-family: Arial;
@@ -1076,26 +1477,85 @@
 
 
  /* The snackbar - position it at the bottom and in the middle of the screen */
-#snackbar {
+#snackbar-container{
+	position :  fixed;
+    bottom : 0px;
+    left : 50%;
+}
+
+.snackbar_information {
     visibility: hidden;
-    min-width: 250px;
-    margin-left: -125px;
+    min-width: 400px;
+    margin-left: -200px;
+    height: 42px;
     background-color: #777;
+    margin-bottom : 20px;
     color: #fff;
     font-family: Arial;
     font-size: 15px;
-    text-align: center;
-    padding: 16px;
-    position: fixed;
+    padding-top: 4px;
+    padding-bottom: 4px;
     z-index: 1;
     left: 50%;
     bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#snackbar.show {
+.snackbar_attention {
+    visibility: hidden;
+    min-width: 400px;
+    margin-left: -200px;
+    height: 42px;
+    background-color: #cc0000;
+    margin-bottom : 20px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snackbar_skillstone {
+    visibility: hidden;
+    min-width: 400px;
+    margin-left: -200px;
+    height: 42px;
+    background-color: #b79a00;
+    margin-bottom : 20px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snackbar.none {
+    display: none;
+}
+
+.snackbar_information.show3s, .snackbar_attention.show3s {
     visibility: visible;
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+.snackbar_skillstone.show6s {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 5.5s;
+    animation: fadein 0.5s, fadeout 0.5s 5.5s;
 }
 
 @-webkit-keyframes fadein {
@@ -1131,9 +1591,9 @@
 
 .select2.select2-container .select2-selection .select2-selection__rendered {
     color: #555;
-    line-height: 30px;
+    line-height: 29px;
     padding-right: 33px;
-    border-bottom: 1px;
+    border-bottom-width: 1px;
     border-bottom-color: white;
     border-bottom-style: solid;
 }
@@ -1156,4 +1616,10 @@
     color: #555;
     font-family: Arial;
     font-size: 15px;
+}
+
+#test1, #test2, #test3, #test4 {
+    border: 1px solid aqua;
+    height: 100px;
+    width: 100px;
 }
