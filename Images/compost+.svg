@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg37"
+   sodipodi:docname="compost+.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview39"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.12625"
+     inkscape:cx="400"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg37" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:none;stroke:#000000;stroke-linejoin:round;stroke-width:2px;}</style>
+  </defs>
+  <title
+     id="title6" />
+  <path
+     class="cls-1"
+     d="m 44.381359,45.293705 a 5.5448853,5.5448853 0 0 0 0,-11.08977 5.7825235,5.7825235 0 0 0 -0.744599,0.05545 3.9606326,3.9606326 0 0 0 -2.423906,-0.847577 3.7863646,3.7863646 0 0 0 -0.602019,0.06339 4.7527591,4.7527591 0 0 0 -8.602492,0.657464 4.7527591,4.7527591 0 0 0 -7.034083,0.0713 4.7527591,4.7527591 0 0 0 -7.786604,0.966396 4.7527591,4.7527591 0 0 0 -7.129138,1.584252 4.7527591,4.7527591 0 1 0 -2.9071041,8.539124 z"
+     id="path8"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1" />
+  <path
+     class="cls-1"
+     d="m 44.381359,37.372441 a 2.3763797,2.3763797 0 0 1 0,4.752758"
+     id="path10"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1" />
+  <rect
+     class="cls-1"
+     height="10.083771"
+     transform="rotate(-45)"
+     width="6.7251539"
+     x="18.40358"
+     y="35.404625"
+     id="rect12"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1" />
+  <polyline
+     class="cls-1"
+     points="50 23 35 38 38 41 53 26"
+     id="polyline14"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1"
+     transform="matrix(0.79212652,0,0,0.79212652,0.81440148,-3.8181366)" />
+  <polyline
+     class="cls-1"
+     points="38 47 41 44 38 41"
+     id="polyline16"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1"
+     transform="matrix(0.79212652,0,0,0.79212652,0.81440148,-3.8181366)" />
+  <polyline
+     class="cls-1"
+     points="35 38 32 35 22 45 22 48"
+     id="polyline18"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1"
+     transform="matrix(0.79212652,0,0,0.79212652,0.81440148,-3.8181366)" />
+  <line
+     class="cls-1"
+     x1="40.420719"
+     x2="47.549862"
+     y1="9.6480131"
+     y2="16.777149"
+     id="line20"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1" />
+  <path
+     d="m 46.404138,48.695207 h 7.013792 m 0,0 h 7.013791 m -7.013791,0 v -7.013792 m 0,7.013792 v 7.013792"
+     stroke="#000000"
+     stroke-width="3.5069"
+     stroke-linecap="round"
+     id="path4"
+     style="stroke:#555555;stroke-opacity:1" />
+</svg>

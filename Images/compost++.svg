@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg37"
+   sodipodi:docname="compost++.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview39"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.71417785"
+     inkscape:cx="401.16058"
+     inkscape:cy="398.36016"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg37" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:none;stroke:#000000;stroke-linejoin:round;stroke-width:2px;}</style>
+  </defs>
+  <title
+     id="title6" />
+  <path
+     class="cls-1"
+     d="m 40.672788,41.141467 a 5.2078052,5.2078052 0 0 0 0,-10.415608 5.4309971,5.4309971 0 0 0 -0.699335,0.05208 3.7198611,3.7198611 0 0 0 -2.276553,-0.796053 3.5561871,3.5561871 0 0 0 -0.565422,0.05953 4.4638333,4.4638333 0 0 0 -8.079536,0.617496 4.4638333,4.4638333 0 0 0 -6.606473,0.06697 4.4638333,4.4638333 0 0 0 -7.313247,0.907647 4.4638333,4.4638333 0 0 0 -6.695749,1.487943 4.4638333,4.4638333 0 1 0 -2.7303779,8.020021 z"
+     id="path8"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1" />
+  <path
+     class="cls-1"
+     d="m 40.672788,33.701747 a 2.2319168,2.2319168 0 0 1 0,4.463832"
+     id="path10"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1" />
+  <rect
+     class="cls-1"
+     height="9.4707661"
+     transform="rotate(-45)"
+     width="6.3163238"
+     x="17.559313"
+     y="31.548672"
+     id="rect12"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1" />
+  <polyline
+     class="cls-1"
+     points="50 23 35 38 38 41 53 26"
+     id="polyline14"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1"
+     transform="matrix(0.74397221,0,0,0.74397221,-0.24568284,-4.9848067)" />
+  <polyline
+     class="cls-1"
+     points="38 47 41 44 38 41"
+     id="polyline16"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1"
+     transform="matrix(0.74397221,0,0,0.74397221,-0.24568284,-4.9848067)" />
+  <polyline
+     class="cls-1"
+     points="35 38 32 35 22 45 22 48"
+     id="polyline18"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1"
+     transform="matrix(0.74397221,0,0,0.74397221,-0.24568284,-4.9848067)" />
+  <line
+     class="cls-1"
+     x1="36.952919"
+     x2="43.648674"
+     y1="7.6627192"
+     y2="14.358467"
+     id="line20"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1" />
+  <path
+     d="m 38.469516,50.738757 h 6.587416 m 0,0 h 6.587414 m -6.587414,0 v -6.587415 m 0,6.587415 v 6.587416"
+     stroke="#000000"
+     stroke-width="3.29371"
+     stroke-linecap="round"
+     id="path4"
+     style="stroke:#555555;stroke-opacity:1" />
+  <path
+     d="m 48.898316,41.104961 h 6.587415 m 0,0 h 6.587415 m -6.587415,0 v -6.587416 m 0,6.587416 v 6.587416"
+     stroke="#000000"
+     stroke-width="3.29371"
+     stroke-linecap="round"
+     id="path4-3"
+     style="stroke:#555555;stroke-opacity:1" />
+</svg>
