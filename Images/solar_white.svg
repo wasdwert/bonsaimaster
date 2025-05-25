@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   height="800px"
+   width="800px"
+   version="1.1"
+   id="_x32_"
+   viewBox="0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="solar_white.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs17" /><sodipodi:namedview
+   id="namedview15"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="0.71417785"
+   inkscape:cx="399.76037"
+   inkscape:cy="399.76037"
+   inkscape:window-width="1920"
+   inkscape:window-height="1001"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g12" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#000000;}
+</style>
+<g
+   id="g12">
+	<path
+   class="st0"
+   d="m 77.604,292.939 10.047,-41.623 c -21.697,-9.842 -38.879,-39.91 -38.879,-65.383 0,-40.4 32.761,-73.162 73.162,-73.162 31.978,0 59.097,20.563 69.049,49.153 h 28.136 c 4.574,-7.435 17.672,-17.408 15.484,-22.67 -2.766,-6.681 -27.566,-1.566 -31.546,-7.515 -4.003,-5.979 10.172,-26.951 5.1,-32.022 -5.078,-5.078 -26.05,9.104 -32.029,5.093 -5.941,-3.973 -0.834,-28.788 -7.508,-31.553 -6.572,-2.722 -20.497,18.396 -27.639,16.984 C 134.059,88.873 129.258,64 121.933,64 114.608,64 109.807,88.873 102.885,90.241 95.751,91.653 81.825,70.535 75.254,73.264 68.573,76.03 73.688,100.83 67.739,104.81 61.76,108.813 40.788,94.639 35.717,99.71 c -5.078,5.078 9.104,26.05 5.101,32.029 -3.98,5.942 -28.788,0.834 -31.561,7.508 -2.722,6.572 18.397,20.504 16.984,27.639 C 24.873,173.808 0,178.609 0,185.933 c 0,7.325 24.873,12.126 26.242,19.048 1.412,7.134 -19.707,21.06 -16.977,27.631 2.766,6.681 27.565,1.566 31.546,7.515 4.003,5.979 -10.171,26.951 -5.1,32.022 5.078,5.078 26.05,-9.104 32.029,-5.101 3.724,2.496 9.198,17.585 9.864,25.891 z"
+   id="path4"
+   style="fill:#ffffff;fill-opacity:1" />
+	<path
+   class="st0"
+   d="M 66.144,400.208 H 512 L 459.547,182.904 h -340.95 z m 407.79,-29.973 H 367.579 L 361.3,302.796 h 96.351 z m -37.986,-157.358 16.282,67.439 h -93.022 l -6.271,-67.439 z m -188.304,0 h 82.718 l 6.278,67.439 h -95.275 z m -8.372,89.919 h 99.46 l 6.271,67.439 H 233.001 Z m -97.068,-89.919 h 82.865 l -6.271,67.439 h -92.876 z m 74.501,89.919 -6.279,67.439 H 104.218 L 120.5,302.796 Z"
+   id="path6"
+   style="fill:#ffffff;fill-opacity:1" />
+	<polygon
+   class="st0"
+   points="512,359.508 66.144,359.508 83.634,394.479 494.511,394.479 "
+   id="polygon8"
+   transform="translate(0,51.186)"
+   style="fill:#ffffff;fill-opacity:1" />
+	
+</g>
+</svg>
