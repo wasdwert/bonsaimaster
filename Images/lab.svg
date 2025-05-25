@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   id="Layer_1"
+   data-name="Layer 1"
+   version="1.1"
+   sodipodi:docname="chemical.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.01"
+     inkscape:cx="399.50495"
+     inkscape:cy="400.49505"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:none;stroke:#020202;stroke-miterlimit:10;stroke-width:1.91px;}</style>
+  </defs>
+  <line
+     class="cls-1"
+     x1="7.23"
+     y1="1.5"
+     x2="16.77"
+     y2="1.5"
+     id="line6"
+     style="stroke:#555555;stroke-opacity:1" />
+  <path
+     class="cls-1"
+     d="M14.86,6.27V1.5H9.14V6.27L2.7,19.15a2.3,2.3,0,0,0-.25,1h0A2.32,2.32,0,0,0,4.77,22.5H19.23a2.32,2.32,0,0,0,2.32-2.32h0a2.3,2.3,0,0,0-.25-1Z"
+     id="path8"
+     style="fill:none;fill-opacity:1;stroke:#555555;stroke-opacity:1" />
+  <path
+     class="cls-1"
+     d="M6.89,10.76c5-2.17,5.31,1.9,10.42.41"
+     id="path10"
+     style="stroke:#555555;stroke-opacity:1;stroke-width:1.91001;stroke-miterlimit:10;stroke-dasharray:none" />
+  <line
+     class="cls-1"
+     x1="7.23"
+     y1="18.68"
+     x2="9.14"
+     y2="18.68"
+     id="line12"
+     style="stroke:#555555;stroke-opacity:1" />
+  <line
+     class="cls-1"
+     x1="10.09"
+     y1="14.86"
+     x2="12"
+     y2="14.86"
+     id="line14"
+     style="stroke:#555555;stroke-opacity:1" />
+  <line
+     class="cls-1"
+     x1="14.86"
+     y1="16.77"
+     x2="16.77"
+     y2="16.77"
+     id="line16"
+     style="stroke:#555555;stroke-opacity:1" />
+</svg>

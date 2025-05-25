@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="glass.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.01"
+     inkscape:cx="399.50495"
+     inkscape:cy="400.49505"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <path
+     d="M4,20V4A2,2,0,0,1,6,2H18a2,2,0,0,1,2,2V20a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2M18,4H6V20H18Z"
+     id="path2"
+     style="fill:#555555;fill-opacity:1" />
+  <polyline
+     points="7.77 9.91 11.01 6.66 12.07 7.72 8.83 10.97 7.77 9.91"
+     id="polyline4"
+     style="fill:#555555;fill-opacity:1" />
+  <rect
+     x="7.54"
+     y="11.19"
+     width="8.01"
+     height="1.5"
+     transform="translate(-5.06 11.66) rotate(-45)"
+     id="rect6"
+     style="fill:#555555;fill-opacity:1" />
+  <rect
+     width="24"
+     height="24"
+     transform="translate(24 0) rotate(90)"
+     fill="none"
+     id="rect8" />
+</svg>
